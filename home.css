@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    border-bottom: 0.5px solid rgb(131, 131, 131);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color:azure;
+}
+
+/* main section */
+#mainSection{
+    height: 100vh;
+    border-top: 0.5px solid rgb(131, 131, 131);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: azure;
+    display: flex;
+}
+
+ #mainLeft{
+    width: 50%;
+    height: 100vh;
+    background-color:antiquewhite;
+    border-top: 0.5px solid rgb(131, 131, 131);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+ }
+ #mainRight{
+    width: 50%;
+    height: 100vh;
+    background-color:antiquewhite;
+    border-top: 0.5px solid rgb(131, 131, 131);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+ }
