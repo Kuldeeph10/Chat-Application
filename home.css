@@ -1,38 +1,72 @@
-*{
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-nav{
-    border-bottom: 0.5px solid rgb(131, 131, 131);
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    background-color:azure;
+/* nav bar */
+#logo {
+  color: rgb(255, 85, 0);
+  font-size: 25px;
+  font-weight: 400;
 }
-
+#navbtn {
+  background-color: rgb(255, 85, 0);
+  font-size: 20px;
+}
+#navbtn:hover {
+  background-color: rgba(255, 85, 0, 0.902);
+}
+#navLoginbtn {
+  font-size: 20px;
+  color: rgb(28, 128, 95);
+}
+#myAccess ul li a {
+  font-size: 20px;
+}
 /* main section */
-#mainSection{
-    height: 100vh;
-    border-top: 0.5px solid rgb(131, 131, 131);
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    background-color: azure;
-    display: flex;
+#mainSection {
+  margin: auto;
+  width: 95%;
+  height: 100vh;
+  border-radius: 20px;
+  background-color: azure;
+  background-image: url(/Chat-Application/images/IMG-20240907-WA0027~2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100vh;
+  filter: opacity(95%);
+  display: flex;
 }
 
- #mainLeft{
-    width: 50%;
-    height: 100vh;
-    background-color:antiquewhite;
-    border-top: 0.5px solid rgb(131, 131, 131);
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
- }
- #mainRight{
-    width: 50%;
-    height: 100vh;
-    background-color:antiquewhite;
-    border-top: 0.5px solid rgb(131, 131, 131);
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
- }
+#mainLeft {
+  width: 65%;
+  height: 100vh;
+  /* filter: opacity(1px); */
+}
+#mainLeft h1 {
+  font-size: 55px;
+  color: rgb(0, 0, 0);
+  margin-top: 40px;
+}
+#mainLeft h1 b {
+  font-family: cursive;
+  color: rgb(255, 85, 0);
+  border-bottom: 10px solid black;
+  border-radius: 50%;
+}
+.keypoints {
+  margin-top: 50px;
+  font-size: 23px;
+  color: rgb(0, 0, 0);
+}
+
+#chatbtn {
+  background-color: rgb(255, 85, 0);
+  margin-top: 30px;
+  margin-left: 30px;
+  font-size: 25px;
+  border-bottom-right-radius: 20px;
+}
+/* #mainRight {
+  width: 35%;
+  height: 100vh;
+} */
