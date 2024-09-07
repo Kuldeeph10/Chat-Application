@@ -70,3 +70,30 @@
   width: 35%;
   height: 100vh;
 } */
+
+/* main second section */
+
+#secDiv {
+  height: 100vh;
+  width: 95%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.headcontent {
+  width: 80%;
+}
+#secDiv h2 {
+  font-size: 40px;
+  margin-top: 25%;
+}
+
+/* therd section */
+
+#therdDiv{
+  height: 100vh;
+  width: 95%;
+  margin-top: 20px;
+  background-color: antiquewhite;
+}
