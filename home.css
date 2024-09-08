@@ -86,12 +86,75 @@
 }
 #secDiv h2 {
   font-size: 40px;
-  margin-top: 25%;
+  margin-top: -5%;
+}
+.pin {
+  position: relative;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
 }
 
+.pin span {
+  display: inline-block;
+  white-space: nowrap;
+  position: relative;
+  left: 7rem;
+  top: 50%;
+  transform: translate(-50%);
+  background: #ef8888;
+  border-radius: 3em;
+  padding: 5px;
+  font-size: 0.9rem;
+}
+.first {
+  left: 80%;
+  top: 10%;
+}
+.first span {
+  border-top-left-radius: 0px;
+}
+.Second {
+  top: 80%;
+  left: 80%;
+}
+.Second span {
+  left: 6rem;
+  border-top-left-radius: 0px;
+}
+.fourth {
+  top: 55%;
+  left: 50%;
+}
+.fourth span{
+  left: 6.5rem;
+  border-top-left-radius: 0px;
+}
+.fifth {
+  left: 50%;
+}
+.six {
+  top: 50%;
+}
+.six span {
+  position: relative;
+  border-top-left-radius: 0px;
+  left: 8.5rem;
+  top: 50%;
+}
+.seven {
+  top: -15%;
+  left: 30%;
+}
+.seven span {
+  position: relative;
+  border-top-right-radius: 0px;
+  left: -2rem;
+  top: 55%;
+}
 /* therd section */
 
-#therdDiv{
+#therdDiv {
   height: 100vh;
   width: 95%;
   margin-top: 20px;
