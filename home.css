@@ -46,6 +46,7 @@
   font-size: 55px;
   color: rgb(0, 0, 0);
   margin-top: 40px;
+  font-family: "SUSE", sans-serif;
 }
 #mainLeft h1 b {
   font-family: cursive;
@@ -87,6 +88,7 @@
 #secDiv h2 {
   font-size: 40px;
   margin-top: -5%;
+  font-family: "SUSE", sans-serif;
 }
 .pin {
   position: relative;
@@ -126,7 +128,7 @@
   top: 55%;
   left: 50%;
 }
-.fourth span{
+.fourth span {
   left: 6.5rem;
   border-top-left-radius: 0px;
 }
@@ -156,7 +158,39 @@
 
 #therdDiv {
   height: 100vh;
-  width: 95%;
+  display: flex;
   margin-top: 20px;
-  background-color: antiquewhite;
+  background-color: rgba(255, 85, 0, 0.902);
+}
+
+.lefetSide {
+  width: 50%;
+  height: 100vh;
+}
+.lefetSide img {
+  margin-top: 10vh;
+  border-radius: 50%;
+}
+
+.rightSide h1 {
+  margin-top: 40%;
+  width: 60%;
+  margin-left: 25%;
+  color: aliceblue;
+  font-size: 45px;
+  font-family: "SUSE", sans-serif;
+}
+
+.rightSide p {
+  margin-top: 4%;
+  margin-left: 25%;
+  width: 70%;
+  font-size: 20px;
+  font-weight: 600;
+}
+/* forth section */
+#forthDiv {
+  height: 100vh;
+  display: flex;
+  margin-top: 20px;
 }
