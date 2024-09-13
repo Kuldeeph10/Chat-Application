@@ -288,3 +288,62 @@
 .leftFooter span a {
   color: whitesmoke;
 }
+
+/*  $$$$$$$-----------$$$$$$$$$[media Query]$$$$$$$$$------$$$$$$$$$$ */
+
+@media screen and (max-width: 1025px) and (min-width: 767px){
+  .keypoints {
+    margin-top: 0px;
+  }
+  /* second section */
+  #secDiv h2 {
+    margin-top: -30%;
+  }
+  .first {
+    left: 80%;
+    top: 0%;
+  }
+  .Second {
+    top: 60%;
+    left: 90%;
+  }
+  .fourth {
+    top: 50%;
+    left: 40%;
+  }
+  .fifth {
+    top: -30%;
+    left: 50%;
+  }
+  .six {
+    top: 20%;
+  }
+  .seven {
+    top: -50%;
+    left: 30%;
+  }
+  /*  therd section */
+  .lefetSide img {
+    height: 400px;
+  }
+  .rightSide h1 {
+    margin-top: 20px;
+  }
+
+  /*  forth section */
+  .secFouImg {
+    height: 600px;
+  }
+  /*  footer  */
+  .rightFooter h1 {
+    margin-top: 70px;
+    font-size: 50px;
+  }
+  .listdiv b {
+    font-size: 19px;
+  }
+
+  .listdiv {
+    font-size: 17px;
+  }
+}
