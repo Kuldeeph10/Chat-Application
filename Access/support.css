@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* nav bar */
+#navBar {
+  position: fixed;
+  z-index: 1;
+  margin-top: 40px;
+}
+#logo {
+  color: rgb(255, 85, 0);
+  font-size: 25px;
+  font-weight: 400;
+}
+#navbtn {
+  background-color: rgb(255, 85, 0);
+  font-size: 20px;
+}
+
+#navLoginbtn {
+  font-size: 20px;
+  color: rgb(28, 128, 95);
+}
+#myAccess ul li a {
+  font-size: 20px;
+}
+
+#myAccess a:hover {
+  color: rgba(255, 85, 0, 0.902);
+}
+#navbtn:hover {
+  background-color: rgba(255, 85, 0, 0.902);
+  color: black;
+}
+
+/*  main section */
+
+#mainSec {
+  font-family: "SUSE", sans-serif;
+  height: 200vh;
+  width: 100%;
+  padding: 50px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+#mainSec h1 {
+  font-size: 60px;
+}
+
+#mainSec h2 {
+  font-size: 30px;
+}
+
+#mainSec p {
+  font-size: 20px;
+}
+
+#mainSec address{
+    font-size: 20px;
+}
+
+/*  form */
+
+#contactSec {
+  background-color: #ef88889f;
+  height: 105vh;
+  width: 80%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 12px;
+  /* margin: auto; */
+}
+
+#contactSec .lavel {
+  font-weight: 530;
+}
+
+#contactSec input {
+  border: none;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#contactSec input:focus {
+  outline: 2px solid rgba(255, 85, 0, 0.902);
+}
+#contactSec textarea:focus{
+  outline: 2px solid rgba(255, 85, 0, 0.902);
+}
+
+#btn{
+ width: 20%;
+ padding: 8px;
+ border: none;
+ background-color: rgb(255, 85, 0);
+ border-radius: 12px;
+}
+#btn:active{
+    transform: scale(.9);
+}
+
+/* footer */
+#footersection {
+    height: 63vh;
+    background-color: rgba(255, 85, 0, 0.902);
+  }
+  
+  .rightFooter {
+    height: 65%;
+    padding: 20px;
+    display: flex;
+    gap: 10%;
+    border-bottom: 2px solid black;
+  }
+  
+  .rightFooter h1 {
+    margin-top: 110px;
+    font-size: 50px;
+  }
+  
+  .listdiv {
+    margin-top: 30px;
+    font-size: 22px;
+  }
+  
+  .listdiv b {
+    color: whitesmoke;
+    font-weight: 600;
+    font-size: 25px;
+  }
+  
+  .listdiv li:hover {
+    color: #dedddd;
+  }
+  
+  .leftFooter {
+    margin-top: 30px;
+    height: 20%;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .leftFooter span {
+    font-size: 20px;
+    border: 1px solid black;
+    background-color: #ef8888;
+    border-radius: 100%;
+    padding: 15px;
+  }
+  
+  .leftFooter span a {
+    color: whitesmoke;
+  }
