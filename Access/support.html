@@ -23,7 +23,12 @@
     <!--  navbar section -->
     <nav class="navbar navbar-expand-md p-2">
       <div class="container-fluid" id="navBar">
-        <a class="navbar-brand" href="/Chat-Application/home/home.html" id="logo">//TalkLink</a>
+        <a
+          class="navbar-brand"
+          href="/Chat-Application/home/home.html"
+          id="logo"
+          >//TalkLink</a
+        >
         <button
           class="navbar-toggler"
           type="button"
@@ -61,8 +66,8 @@
           </ul>
         </div>
         <form class="d-flex gap-2">
-          <a href="#" class="btn" type="button" id="navLoginbtn">Login</a>
-          <a href="#" class="btn" type="button" id="navbtn">Register</a>
+          <a href="/Chat-Application/loginSignIUp/login.html" class="btn" type="button" id="navLoginbtn">Login</a>
+          <a href="/Chat-Application/loginSignIUp/register.html" class="btn" type="button" id="navbtn">Register</a>
         </form>
       </div>
     </nav>
@@ -90,13 +95,22 @@
           Let us know about your problem, we will try to resolve your problem as
           soon as possible. relax and stay connect with us!! Thank you.
         </p>
-        <form action="" id="formContainer">
+        <form
+          action="https://api.web3forms.com/submit"
+          method="POST"
+          id="formContainer"
+        >
           <div>
             <h4 class="lavel" for="phone">Phone Number</h4>
             <p>
               Please provide the phone number you use for your WhatsApp account.
             </p>
-            <input type="tel" id="phone" name="phone" required/>
+            <input
+              type="hidden"
+              name="access_key"
+              value="167c1ab1-e2ef-4352-b317-b490f696be14"
+            />
+            <input type="tel" id="phone" name="phone" required />
           </div>
           <div>
             <h4 class="lavel" for="email">Email Address</h4>

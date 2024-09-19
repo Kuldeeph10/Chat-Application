@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Real Time Chat Application</title>
+    <link rel="stylesheet" href="chat.css" />
+    <script src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script src="clint.js"></script>
+  </head>
+  <body>
+    <!--  navbar section -->
+    <nav class="nav-bar">
+      <h1>//TalkLink</h1>
+    </nav>
+    <div class="container">
+      <div class="massage right">Kuldeep: hello</div>
+      <div class="massage left">Arjun: hello</div>
+    </div>
+
+    <div class="send">
+      <form action="#" id="send-container">
+        <input type="text" name="messageInp" id="messageInp" />
+        <button class="btn" type="submit">send</button>
+      </form>
+    </div>
+    <!--  fairbase API ---------------------------------------------------------------------------------- -->
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.1/firebase-app.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+
+      // Your web app's Firebase configuration
+      const firebaseConfig = {
+        apiKey: "AIzaSyBwkMD0kd9mjkFa69PIXJE4NuNiKujYfmk",
+        authDomain: "chat-application-fbacf.firebaseapp.com",
+        projectId: "chat-application-fbacf",
+        storageBucket: "chat-application-fbacf.appspot.com",
+        messagingSenderId: "351004588676",
+        appId: "1:351004588676:web:89d1a7f0bbf9031b99e0d1",
+      };
+
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+    </script>
+  </body>
+</html>
