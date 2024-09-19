@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat App - Blog Section</title>
+    <link rel="stylesheet" href="blog.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Blog Section</h1>
+
+        <!-- Blog Form to add a new blog -->
+        <div class="blog-form">
+            <h2>Add New Blog</h2>
+            <form id="blogForm" onsubmit="return addBlog()">
+                <div class="input-group">
+                    <label for="blog-title">Blog Title</label>
+                    <input type="text" id="blog-title" placeholder="Enter blog title" required>
+                </div>
+                <div class="input-group">
+                    <label for="blog-description">Blog Description</label>
+                    <textarea id="blog-description" placeholder="Enter blog description" required></textarea>
+                </div>
+                <div class="input-group">
+                    <label for="blog-image">Blog Image URL</label>
+                    <input type="text" id="blog-image" placeholder="Enter image URL" required>
+                </div>
+                <button type="submit" class="btn">Add Blog</button>
+            </form>
+        </div>
+
+        <!-- Blog list -->
+        <h2>All Blogs</h2>
+        <div id="blog-list">
+            <!-- Blog entries will be added here dynamically -->
+        </div>
+    </div>
+
+    <script src="blog.js"></script>
+</body>
+</html>
