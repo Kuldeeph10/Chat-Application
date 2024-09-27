@@ -137,3 +137,52 @@ a {
   .leftFooter span a {
     color: whitesmoke;
   }
+
+
+  /*  laptop view */
+@media screen and (max-width: 1025px) and (min-width: 901px) {
+  /* footer  */
+  .rightFooter h1 {
+    margin-top: 70px;
+    font-size: 40px;
+  }
+  .listdiv b {
+    font-size: 19px;
+  }
+
+  .listdiv {
+    font-size: 17px;
+  }
+}
+/*  tab view */
+
+@media screen and (min-width: 768px) and (max-width: 901px) {
+  .rightFooter h1 {
+    margin-top: 50px;
+    font-size: 40px;
+  }
+
+  .listdiv {
+    margin-top: 40px;
+  }
+
+  .listdiv b {
+    font-size: 12px;
+  }
+
+  .listdiv li {
+    font-size: 10px;
+  }
+}
+/*  mobile view */
+@media screen and (min-width: 319px) and (max-width: 426px) {
+  .rightFooter h1 {
+    margin-top: 50px;
+    margin-left: 25%;
+    font-size: 40px;
+  }
+
+  .listdiv {
+    display: none;
+  }
+}

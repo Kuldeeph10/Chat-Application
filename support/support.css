@@ -218,3 +218,93 @@
     width: 30%;
   }
 }
+
+/*  laptop view */
+@media screen and (max-width: 1025px) and (min-width: 901px) {
+  /* footer  */
+  .rightFooter h1 {
+    margin-top: 70px;
+    font-size: 40px;
+  }
+  .listdiv b {
+    font-size: 19px;
+  }
+
+  .listdiv {
+    font-size: 17px;
+  }
+  #footersection{
+    margin-top: 400px;
+  }
+  #formContainer textarea {
+    width: 100%;
+  }
+  #contactSec h3 {
+    font-size: 20px;
+  }
+  #contactSec p {
+    font-size: 15px;
+  }
+  #formContainer h4 {
+    font-size: 20px;
+  }
+  #formContainer p {
+    font-size: 15px;
+  }
+  #contactSec {
+    width: 100%;
+    gap: 0px;
+    height: 150vh;
+  }
+}
+/*  tab view */
+
+@media screen and (min-width: 768px) and (max-width: 901px) {
+
+
+  .rightFooter h1 {
+    margin-top: 50px;
+    font-size: 40px;
+  }
+
+  #footersection{
+    margin-top: 50px;
+  }
+  .listdiv {
+    margin-top: 40px;
+  }
+
+  .listdiv b {
+    font-size: 12px;
+  }
+
+  .listdiv li {
+    font-size: 10px;
+  }
+  #formContainer textarea {
+    width: 100%;
+  }
+  .seconndiv {
+    display: none;
+  }
+  #contactSec {
+    width: 100%;
+    gap: 0px;
+    height: 150vh;
+  }
+  #contactSec h3 {
+    font-size: 20px;
+  }
+  #contactSec p {
+    font-size: 15px;
+  }
+  #formContainer h4 {
+    font-size: 20px;
+  }
+  #formContainer p {
+    font-size: 15px;
+  }
+  .address {
+    display: none;
+  }
+}

@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.nav-bar {
+  width: 100%;
+  background-color: rgb(255, 85, 0);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 40px;
+  display: flex;
+}
+.nav-bar h1 {
+  margin: auto;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+#messages {
+  width: 65%;
+  height: 70vh;
+  margin: auto;
+  margin-top: 30px;
+  border: 3px solid rgb(255, 85, 0);
+  padding: 15px;
+  overflow-y: auto;
+}
+#sendMsg {
+  position: fixed;
+  left: 0%;
+  bottom: 10px;
+  width: 100%;
+  height: 50px;
+}
+#msgTxt {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: calc(100% - 100px);
+  background-color: #ef8888;
+  border: none;
+  border-radius: 12px;
+  font-size: 20px;
+  height: 100%;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+#msgBtn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100px;
+  height: 100%;
+  cursor: pointer;
+  border: none;
+  background-color: rgb(255, 85, 0);
+  border-radius: 12px;
+}
+.outer {
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+}
+#inner {
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.me {
+  width: auto;
+  background-color: #ef8888;
+  padding: 7px;
+  margin: 3px 0px;
+  border: 2px solid rgb(255, 85, 0);
+  border-radius: 12px;
+}
+.notMe {
+  background-color: rgb(246, 147, 98);
+  border: 2px solid rgb(255, 85, 0);
+
+  color: #000;
+}
+
+/* #dltMsg {
+  background-color: red;
+  padding: 6px;
+  width: 20%;
+  border: none;
+  border-radius: 50%;
+  margin-left: 30px;
+} */
