@@ -6,10 +6,15 @@
     <title>Chat-app</title>
     <link rel="stylesheet" href="style.css" />
     <!--  google link -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
   </head>
   <body>
-    <div class="nav-bar"><h1>Talk-Link</h1></div>
+    <div class="nav-bar">
+      <h1> <a href="../home/home.html">Talk-Link </a></h1>
+    </div>
     <div id="messages"></div>
 
     <div id="sendMsg">
@@ -57,7 +62,7 @@
       if (sessionStorage.getItem("sender")) {
         sender = sessionStorage.getItem("sender");
       } else {
-        sender = prompt("PLEASE ENTER YOUR NAME");
+        sender = prompt("ENTER YOUR NAME TO JOIN CHAT");
         sessionStorage.setItem("sender", sender);
       }
 
@@ -80,8 +85,8 @@
             "<div style=justify-content:end class=outer id=" +
             data.key +
             "><div id=inner class=me>you : " +
-            data.val().msg 
-            // +"<button id=dltMsg onclick=module.dltMsg(" +data.key +")>D</button></div></div>";
+            data.val().msg;
+          // +"<button id=dltMsg onclick=module.dltMsg(" +data.key +")>D</button></div></div>";
         } else {
           messages.innerHTML +=
             "<div class=outer id=" +

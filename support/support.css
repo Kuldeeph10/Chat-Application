@@ -136,6 +136,9 @@
   font-weight: 600;
   font-size: 25px;
 }
+.listdiv b {
+  font-size: 19px;
+}
 
 .listdiv li:hover {
   color: #dedddd;
